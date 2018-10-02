@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BackSide</title>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="small-menu">
+	<div class="main-menu">
+		<a class="nav-top" href="index.html">
+			<div class="logo">
+				<i class="ing ing-config"></i> <img src="img/logo.png" alt="Back Office">
+			</div>
+		</a>
+		<ul class="menu list-unstyled">
+			<li><a href="home.html"><i class="ing ing-home"></i> <span>Imobiliárias</span></a></li>
+			<li>
+				<a href="javascript:;">
+					<i class="ing ing-map-maker"></i> <span>Endereços <i class="ing ing-chevron-light-down"></i></span>
+				</a>
+				<div class="sub-menu">
+					<a href="logradouros.html">Logradouros</a>
+					<a href="bairros.html">Bairros</a>
+				</div>
+			</li>
+			<li><a href="manager.html"><i class="ing ing-sitemap"></i> <span>Manager</span></a></li>
+			<li>
+				<a href="javascript:;"><i class="ing ing-gears-dual"></i> <span>Operacional <i class="ing ing-chevron-light-down"></i></span></a>
+				<div class="sub-menu">
+					<a href="contato.html">Contatos</a>
+					<a href="indicadores.html">Indicadores</a>
+					<a href="relatorios.html">Relatórios</a>
+					<a href="formularios-sites.html">Site Forms</a>
+					<a href="sugestoes.html">Sugestões</a>
+
+				</div>
+			</li>
+		</ul>		
+	</div>
+	<div class="top-fixed">		
+		<div class="container-fluid">
+			<nav class="nav-top">
+				<div class="float-left">
+					<a href="javascript:;" class="float-left navbar-toggler-icon"><i class="ing ing-bars"></i></a>
+					<h1>Imobiliárias</h1>
+				</div>
+				<div class="pull-right">
+					<nav class="nav-right">
+						<ul class="list-unstyled">
+							<li class="menu-search">
+								<div class="input-group input-group-sm"">
+									<input type="text" class="form-control form-control-sm input-search" placeholder="Buscar">
+									<div class="input-group-btn">
+										<button type="button" class="btn btn-success btn-sm">
+											<i class="ing ing-search"></i>
+										</button>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-users"></i> Usuários <i class="ing ing-chevron-light-down"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="users.html"><i class="ing ing-users"></i> Usuários</a></li>
+									<li><a href="perfis.html"><i class="ing ing-columns-alt"></i> Perfis</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-user"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="user-add.html"><i class="ing ing-edit-o"></i> Jefferson Santos</a></li>
+									<li class="divider"></li>
+									<li><a href="login.html"><i class="ing ing-times"></i> Sair</a>
+</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>				
+		</div>
+	</div>
+	<div class="main-content animated">
+		<div class="container-fluid">	
+			<div class="busca">
+				<div class="row content-busca">
+					<div class="col-sm-4">
+						<input type="text" class="form-control form-control-sm" placeholder="Nome, ID ou Cód. Parceiro">
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control form-control-sm">
+							<option value="">Ranking</option>
+							<option value="0">0</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control form-control-sm">
+							<option value="">Produto</option>
+							<option value="1">Master</option>
+							<option value="2">Lite</option>
+							<option value="3">Módulo Básico</option>
+						</select>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control form-control-sm">
+							<option value="">Status</option>
+							<option value="4">Ativa</option>
+							<option value="1">Cancelado</option>
+							<option value="2">Inativo</option>
+							<option value="3">Suspenso</option>
+							<option value="6">Trial Ativo</option>
+							<option value="7">Trial Expirado</option>
+						</select>
+					</div>
+					<div class="col-sm-2">
+						<select class="form-control form-control-sm">
+							<option value="">Rede</option>
+							<option value="Lorem ipsum ">Lorem ipsum </option>
+							<option value="Donec ut erat">Donec ut erat</option>
+							<option value="Ut tristique justo">Ut tristique justo</option>
+							<option value="Proin feugiat">Proin feugiat</option>
+							<option value="In vel urna">In vel urna</option>
+							<option value="In ut quam">In ut quam</option>
+							<option value="In non velit">In non velit</option>
+							<option value="Aliquam nec">Aliquam nec</option>
+							<option value="Duis eu elit">Duis eu elit</option>
+							<option value="Maecenas mollis">Maecenas mollis</option>
+							<option value="Duis vel ex consequat">Duis vel ex consequat</option>
+							<option value="In vestibulum">In vestibulum</option>
+						</select>
+					</div>
+					<div class="col-sm-4">
+						<input class="form-control form-control-sm" type="text" placeholder="E-mail Contato">
+					</div>
+					<div class="col-sm-3">
+						<div class="form-group">							
+							<div class="row no-gutters">
+								<div class="col-sm-8">
+									<input class="form-control form-control-sm" type="text" placeholder="Cidade">
+								</div>
+								<div class="col-sm-4">
+									<input class="form-control form-control-sm" type="text" placeholder="Estado">							
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-2">
+						<input class="form-control form-control-sm" type="text" placeholder="Bairro">
+					</div>
+					<div class="col-sm-3">
+						<input class="form-control form-control-sm" type="text" placeholder="Consultor">
+					</div>
+					<div class="col-sm-12 text-center">
+						<button class="btn btn-sm btn-success"><i class="ing ing-search"></i> Buscar</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 result-busca">
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="card border-left-saas">
+					<div class="card-header bg-transparent">
+						<div class="row">
+							<div class="col-sm-1 cod-id">
+								<span>#2872</span>
+							</div>
+							<div class="col-sm-2 text-right push-sm-9 status color-secondary-1">
+								<i class="ing ing-star color-saas"></i>
+								<i class="ing ing-star color-financial-solution"></i>
+								<i class="ing ing-star color-real-estate-left"></i>
+							</div>
+							<div class="col-sm-9 pull-sm-2">
+								<h5 class="card-title"><a href="imobiliaria-detalhes.html">Lorem Ipsum Dolor - LID</a></h5>
+							</div>
+						</div>
+					</div>
+					<div class="card-block">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="media">
+									<img class="d-flex align-self-center mr-3" src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+									<div class="media-body">
+										<p><strong>SL #2897</strong></p>
+										<a href="http://www.lipsum.com/ " target="_blank">http://www.lipsum.com/ </a>
+										<p>Jardim Vergueiro, Sorocaba / SP </p>
+									</div>
+									<img class="d-flex align-self-center ml-3" src="https://dummyimage.com/50x64/ccc/000000.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="card-footer bg-transparent">
+						<div class="row">
+							<div class="col-sm-12">
+								<span class="tag bg-financial-solution">Ativa</span>
+								<span class="tag bg-real-estate-left">Cancelado</span>
+								<span class="tag bg-secondary-4">Trial Ativo</span>
+								<span class="tag bg-education">Lite</span>
+								<span class="tag bg-secondary-1">Servidor Desconhecido</span>
+
+								<i class="float-right color-secondary-1"><small>Cadastrado há quase 3 anos </small></i>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-12 text-center">
+					<nav aria-label="">
+						<ul class="pagination justify-content-center pagination-sm">
+							<li class="page-item disabled">
+								<a class="page-link" href="#" tabindex="-1">Previous</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#">Next</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+
+			</div>
+		</div>
+
+
+
+		<script src="js/plugins/jquery.min.js"></script>
+		<script src="js/plugins/tether.min.js"></script>
+		<script src="js/plugins/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+
+	</body>
+	</html>

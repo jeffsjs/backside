@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BackSide</title>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="small-menu">
+	<div class="main-menu animated">
+		<a class="nav-top" href="index.html">
+			<div class="logo">
+				<i class="ing ing-config"></i> <img src="img/logo.png" alt="Back Office">
+			</div>
+		</a>
+		<ul class="menu list-unstyled">
+			<li><a href="home.html"><i class="ing ing-home"></i> <span>Imobiliárias</span></a></li>
+			<li>
+				<a href="javascript:;">
+					<i class="ing ing-map-maker"></i> <span>Endereços <i class="ing ing-chevron-light-down"></i></span>
+				</a>
+				<div class="sub-menu">
+					<a href="logradouros.html">Logradouros</a>
+					<a href="bairros.html">Bairros</a>
+				</div>
+			</li>
+			<li><a href="manager.html"><i class="ing ing-sitemap"></i> <span>Manager</span></a></li>
+			<li>
+				<a href="javascript:;"><i class="ing ing-gears-dual"></i> <span>Operacional <i class="ing ing-chevron-light-down"></i></span></a>
+				<div class="sub-menu">
+					<a href="contato.html">Contatos</a>
+					<a href="indicadores.html">Indicadores</a>
+					<a href="relatorios.html">Relatórios</a>
+					<a href="formularios-sites.html">Site Forms</a>
+					<a href="sugestoes.html">Sugestões</a>
+
+				</div>
+			</li>
+		</ul>		
+	</div>
+	<div class="top-fixed">		
+		<div class="container-fluid">
+			<nav class="nav-top">
+				<div class="float-left">
+					<a href="javascript:;" class="float-left navbar-toggler-icon"><i class="ing ing-bars"></i></a>
+					<h1>Imobiliárias</h1>
+				</div>
+				<div class="pull-right">
+					<nav class="nav-right">
+						<ul class="list-unstyled">
+							<li class="menu-search">
+								<div class="input-group input-group-sm">
+									<input type="text" class="form-control form-control-sm input-search" placeholder="Buscar">
+									<div class="input-group-btn">
+										<button type="button" class="btn btn-success btn-sm">
+											<i class="ing ing-search"></i>
+										</button>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-users"></i> Usuários <i class="ing ing-chevron-light-down"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="users.html"><i class="ing ing-users"></i> Usuários</a></li>
+									<li><a href="perfis.html"><i class="ing ing-columns-alt"></i> Perfis</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-user"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="user-add.html"><i class="ing ing-edit-o"></i> Jefferson Santos</a></li>
+									<li class="divider"></li>
+									<li><a href="login.html"><i class="ing ing-times"></i> Sair</a>
+</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>				
+		</div>
+	</div>
+	<div class="main-content animated">
+		<div class="container-fluid">
+			<div class="col-sm-12">
+				<div class="content content-title">
+					<div class="row">
+						<div class="col-sm-1 cod-id">
+							<span>Editar</span>
+						</div>
+						<div class="col-sm-11">
+							<h2>Lorem Ipsum Dolor - LID</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="form-sm">
+						<div class="row">
+							<div class="col-2">
+								<figure>
+									<img src="https://dummyimage.com/120x60/ccc/000000.jpg" alt="">
+								</figure>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label>Nome</label>
+									<input type="text" class="form-control form-control-sm" value="6152" disabled>
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label>Contrato</label>
+									<input type="text" class="form-control form-control-sm" value="5320" disabled>
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="form-group">
+									<label>Nome fantasia</label>
+									<input type="text" class="form-control form-control-sm" value="Lorem Ipsum Dolor - LID">
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label for="">Status</label>
+									<select class="form-control form-control-sm" disabled="disabled" id="agency_id_imobiliaria_tipo_status" name="agency[id_imobiliaria_tipo_status]" prompt="false">
+										<option value="4" selected="selected">Ativa</option>
+										<option value="1">Cancelado pela </option>
+										<option value="5">Cancelado pelo Cliente</option>
+										<option value="2">Inativo</option>
+										<option value="3">Suspenso</option>
+										<option value="6">Trial Ativo</option>
+										<option value="7">Trial Expirado</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<div class="form-group">
+									<label for="">Logotipo</label>
+									<input type="file" id="file">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="form-group">
+									<label>Razão social</label>
+									<input type="text" class="form-control form-control-sm" value="Lorem Imobiliaria Ltda">
+								</div>							
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label>CRECI</label>
+									<input type="text" class="form-control form-control-sm" value="J-27457">
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label for="">Tipo</label>
+									<select class="form-control form-control-sm" disabled="disabled" id="agency_id_imobiliaria_tipo" name="agency[id_imobiliaria_tipo]" prompt="false">
+										<option value="">Selecione</option>
+										<option value="1" selected="selected">Imobiliária</option>
+										<option value="2">Corretor</option>
+										<option value="3">Construtora</option>
+										<option value="4">Anunciante</option>
+										<option value="6">Integração</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-4">
+								<div class="form-group">
+									<label>URL Site</label>
+									<input type="text" class="form-control form-control-sm" value="http://imoveisLorem.com.br/">
+								</div>
+							</div>
+							<div class="col-4">
+								<div class="form-group">
+									<label for="">Rede principal</label>
+									<select class="form-control form-control-sm" id="agency_id_imobiliaria_tipo_status" name="agency[id_imobiliaria_tipo_status]" prompt="false">
+										<option value="0">Selecione</option>
+										<option value="1">Rede 1</option>
+										<option value="2">Rede 2</option>
+										<option value="3">Rede 3</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label for="">Órulo</label>
+									<select class="form-control form-control-sm" id="agency_agency_product_ids" name="agency[agency_product_ids]" prompt="false">
+										<option value="1" selected="selected">Sim</option>
+										<option value="2">Não</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label for="">Produto contratado</label>
+									<select class="form-control form-control-sm" disabled="disabled" id="agency_agency_product_ids" name="agency[agency_product_ids]" prompt="false">
+										<option value="1" selected="selected">Lorem</option>
+										<option value="2">Lorem Lite</option>
+										<option value="3">Módulo Básico</option>
+										<option value="4">Lorem Inc (Construtoras)</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>					
+				</div>
+
+				
+				<div class="content">
+					<div class="form-sm">
+						<div class="row">
+							<div class="col-3">
+								<div class="form-group">
+									<label>Responsável</label>
+									<input type="text" class="form-control form-control-sm" value="Lorem Imobiliaria Ltda">
+								</div>
+							</div>
+							<div class="col-3">
+								<div class="form-group">
+									<label>E-Mail do Responsável</label>
+									<input type="text" class="form-control form-control-sm" value="lorem@gmail.com">
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label>Telefone</label>
+									<input type="text" class="form-control form-control-sm" value="(11) 9657-67887">
+								</div>
+							</div>
+							<div class="col-2">
+								<div class="form-group">
+									<label>Tipo Pessoa</label>
+									<select class="form-control form-control-sm" id="agency_agency_product_ids" name="agency[agency_product_ids]" prompt="false">
+										<option value="1">Física</option>
+										<option value="2" selected="selected">Jurídica</option>
+									</select>
+								</div>
+							</div>						
+							<div class="col-2">
+								<div class="form-group">
+									<label>CNPJ</label>
+									<input type="text" class="form-control form-control-sm" value="17.622.942/0001-04">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="form-group">
+									<label for="">Descrição</label>
+									<textarea class="form-control" rows="3"></textarea>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="content">
+					<div class="form-sm">
+						<div class="row">
+							<div class="col-8">
+								<h5>Configurações</h5>
+
+								<div class="row">
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Rodízio no menu</span>
+										</label>
+									</div>
+
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Exibe endereços dos imóveis no Lorem</span>
+										</label>	
+									</div>
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Cadastro de endereço personalizado</span>
+										</label>
+									</div>
+
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Validação de IPTU Único</span>
+										</label>	
+									</div>
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input" checked="">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Trabalha com equipes</span>
+										</label>
+									</div>
+
+									<div class="col-6">
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input" checked="">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Complemento numérico</span>
+										</label>	
+									</div>
+
+								</div>
+							</div>
+							<div class="col-4">
+								<h5>Redes e Portais</h5>
+
+								<div class="form-group">
+									<select class="form-control form-control-sm" id="agency_agency_network_ids" multiple="multiple" name="agency[agency_network_ids][]" size="10" data-validate="true">
+										<option value="1">Rede Imobiliária</option>
+										<option value="2">Rede Secovi</option>
+										<option value="6">Rede Total de Imóveis</option>
+										<option value="9">Rede de Imobiliárias Campinas Secovi</option>
+										<option value="11">Century 21</option>
+										<option value="12">ACIJUN - Associação dos Corretores de Imóveis de Jundiaí e Região</option>
+										<option value="14">Ikoni - Imobiliárias conjugadas Itu</option>
+										<option value="15">Associação Jundiaí</option>
+										<option value="16"></option>
+										<option value="18">Rede Minas de Imóveis</option>
+										<option value="20">Phoenix</option>
+										<option value="22">Rede Cash</option>
+										<option value="26">Rede Morar</option>
+										<option value="30">Ceará Rede Imóveis</option>
+										<option value="33">Bela / Mello</option>
+										<option value="37">Rede imobiliária Paulínia</option>
+										<option value="39">Natal Rede de Imobiliárias</option>
+										<option value="40">ColdWell Banker</option>
+										<option value="44">Núcleo Imobiliário de Joinville</option>
+										<option value="50">Associação Comercial e Industrial de Ribeirão Preto</option>
+										<option value="52">Nici Imóveis Itatiba</option>
+										<option value="56">RIC - Rede Imobiliária Cearense</option>
+										<option value="58">Rede Goiania</option>
+										<option value="59">CiaHouse</option>
+										<option value="61">Rede Casulo</option>
+										<option value="63">Rhaoni Chiu</option>
+										<option value="64">Rede Imóvel Fácil</option>
+										<option value="65">Rede Imóveis Online</option>
+										<option value="67">Rede Paraná Imóveis</option>
+										<option value="69">Núcleo Imobiliários AJORPEME</option>
+										<option value="72">Rede UAI Uberaba</option>
+										<option value="74">REDE - GUARIDA</option>
+										<option value="76">Rede Imobiliária São José dos Campos</option>
+										<option value="77">Rede Piracicaba</option>
+										<option value="80">Associação das Imobiliárias de Jaraguá do Sul</option>
+										<option value="81">Núcleo dos Corretores e Imobiliárias de Itajaí</option>
+										<option value="83">Shopping Imóveis </option>
+										<option value="85">Rede Rio de Imóveis </option>
+										<option value="88">Rede Imóveis &amp; Oportunidades</option>
+										<option value="89">Rede Imobiliária Bento Gonçalves</option>
+										<option value="90">Rede de Imobiliária da Paraíba  </option>
+										<option value="91">Nova Casa</option>
+										<option value="92">All Top Empreendimentos Imobiliários </option>
+										<option value="93">Rede Morar Sul</option>
+										<option value="94">Rede Mega</option>
+										<option value="95">Rede MS Imóveis</option>
+										<option value="96">Rede Imóveis Americana</option>
+										<option value="99">Luiz Carlos Livoti</option>
+										<option value="100">José Losso Neto</option>
+										<option value="103">Imobiliária Avante</option>
+										<option value="104">AVM Imóveis</option>
+										<option value="105">Rede Imobiliária de João Pessoa</option>
+										<option value="110">Portal Manaus Imóveis</option>
+										<option value="111">Costa Premier</option>
+										<option value="113">Rede do Lar</option>
+										<option value="116">Rede Imobiliária Metropolitana de Pouso Alegre MG</option>
+										<option value="117">Rede Imobiliárias de Itajubá MG</option>
+										<option value="118">RCI Franchising LTDA.</option>
+										<option value="119">A &amp; S Imobiliária/JR. Imóveis</option>
+										<option value="120">Rede Sul de Imóveis</option>
+										<option value="121">Rede Imobiliária Alagoana</option>
+										<option value="122">Rede Imobiliária Cearense</option>
+										<option value="123">Cliquei Mudei</option>
+										<option value="125">Grupo Rocha Marqueze</option>
+										<option value="126">Vrf Empreendimentos Imobiliarios Ltda</option>
+										<option value="128">Rede Mercus</option>
+										<option value="129">Rede Portal Imobiliário PE</option>
+										<option value="130">Rede TQ</option>
+										<option value="131">Rede Blumenau SC</option>
+										<option value="132">Super Rede</option>
+										<option value="133">Engetec</option>
+										<option value="136">Edkarla Severiano Ferreira do Nascimento</option>
+										<option value="137">Rede Imóveis PE</option>
+										<option value="138">Rede Flora e Eldorado Imóveis</option>
+										<option value="139">Núcleo Setorial Imobiliário de Penha</option>
+										<option value="140">Rede Imóvel Certo</option>
+										<option value="141">Openbless</option>
+										<option value="142">Rede Brasilia de Imóveis</option>
+										<option value="143">Rede Realizei e França Imóveis</option>
+										<option value="144">Rede Imoveis MT</option>
+										<option value="145">Eldorado e Flora Imóveis.</option>
+										<option value="146">Rede Novo Tempo &amp; Quero Casas</option>
+										<option value="147">Rede Piaui Imóveis</option>
+										<option value="148">Nexus Rede de Imóveis</option>
+										<option value="149">Rede Secovi - DF</option>
+										<option value="150">Governador Venda e Governador Locacao.</option>
+										<option value="151">Rede Top &amp; Home</option>
+										<option value="153">Portal Imóvel da Cidade</option>
+										<option value="154">Imobiliária X &amp; Andrade</option>
+										<option value="155">Farah &amp; Unio</option>
+										<option value="156">Rede Imobiliária MT</option>
+										<option value="157">Rede Bee</option>
+										<option value="158">Rede Cascavel</option>
+										<option value="159">Rede França Ferraz</option>
+										<option value="160">Rede Gicap</option>
+										<option value="161">J2M &amp; BREV</option>
+										<option value="162">Rede REMAX</option>
+										<option value="163">Rede Natal de Imóveis</option>
+										<option value="164">Rede Time</option>
+										<option value="165">Imoveis Teleconsulta</option>
+										<option value="166">Rede CDIA</option>
+										<option value="167">Rede Imóveis AL</option>
+										<option value="168">Unika Imóveis &amp; Perobelli</option>
+										<option value="169">Rede Faria &amp; JCN</option>
+										<option value="170">Imobb</option>
+									</select>
+								</div>
+								<a href="#" class="btn btn-sm btn-secondary">Limpar tudo</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="content">
+					<div class="form-sm">
+						<div class="row">
+							<div class="col-4">
+								<h5>Configurações de Facebook</h5>
+								<div class="form-group">
+									<label class="custom-control custom-checkbox custom-square-inline">
+										<input type="checkbox" class="custom-control-input">
+										<span class="custom-control-indicator"></span>
+										<span class="custom-control-description">Facebook habilitado</span>
+									</label>
+								</div>
+								<div class="form-group">
+									<label for="">Tema</label>
+									<input type="text" class="form-control form-control-sm">
+								</div>
+								<div class="form-group">
+									<label for="">Imagem de fundo</label>
+									<select class="form-control form-control-sm">
+										<option value="1" selected="selected">Image 01</option>
+										<option value="2">Image 02</option>
+										<option value="3">Image 03</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-4">
+								<h5>Configurações Mobile</h5>
+								<label class="custom-control custom-checkbox custom-square-inline">
+									<input type="checkbox" class="custom-control-input">
+									<span class="custom-control-indicator"></span>
+									<span class="custom-control-description">Site Mobile</span>
+								</label>
+							</div>
+						<div class="col-sm-4">
+							<h5>Configurações imagem</h5>
+							<div class="row">
+								<div class="col-6">
+									<div class="form-group">
+										<label for="">Largura</label>
+										<input type="text" class="form-control form-control-sm" value="1920">
+									</div>									
+								</div>
+								<div class="col-6">
+									<div class="form-group">
+										<label for="">Altura</label>
+										<input type="text" class="form-control form-control-sm" value="1080">
+									</div>									
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#" class="btn btn-sm btn-outline-success">Salvar</a>
+							<a href="#" class="btn btn-sm btn-secondary">Voltar</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="js/plugins/jquery.min.js"></script>
+	<script src="js/plugins/tether.min.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

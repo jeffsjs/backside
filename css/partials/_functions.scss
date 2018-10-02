@@ -1,0 +1,163 @@
+/* BUTTONS COLORS */
+@mixin NewColorButton($textColor, $bgColor, $BorderColor) {
+	color: $textColor !important;
+	background-color: $bgColor !important;
+	border: 1px solid $bgColor !important;
+
+	&:hover {
+		color: $textColor !important;
+		background-color: darken($bgColor, 5%) !important;
+		border: 1px solid darken($bgColor, 5%) !important;
+	}
+
+	&:focus {
+		color: $textColor !important;
+		background-color: darken($bgColor, 5%) !important;
+		border: 1px solid darken($bgColor, 5%) !important;
+	}
+
+	&.active {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active:hover {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active.focus {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active:focus {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active:hover {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active.focus {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active:focus {
+		color: $textColor !important;
+		background-color: darken($bgColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+}
+
+/* BUTTONS COLORS */
+@mixin NewColorButtonOutline($textColor, $bgColor, $BorderColor) {
+	color: $textColor !important;
+	background-color: $bgColor !important;
+	border: 1px solid $textColor !important;
+
+	&:hover {
+		color: #fff !important;
+		background-color: $BorderColor !important;
+		border: 1px solid $BorderColor !important;
+	}
+
+	&:focus {
+		color: #fff !important;
+		background-color: $BorderColor !important;
+		border: 1px solid $BorderColor !important;
+	}
+
+	&:active:hover {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active.focus {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active:focus {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&.active:hover {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active.focus {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active:focus {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+
+	&:active:hover {
+		color: #fff !important;
+		background-color: darken($BorderColor, 6.5%) !important;
+		border: 1px solid darken($BorderColor, 6.5%) !important;
+	}
+}
+
+.btn-outline-success-green {
+	@include NewColorButtonOutline($color-financial-solution, transparent, $color-financial-solution);
+}
+
+.btn-success-green {
+	@include NewColorButton(#FFF, $color-financial-solution, transparent);
+}
+
+.btn-outline-success-green {
+	vertical-align: top;
+	.ing {
+		color: $color-financial-solution;
+		font-size: 10px !important;
+		line-height: 10px;
+		vertical-align: middle;
+		transition: all 0.2s linear;
+	}
+	&:hover .ing,
+	&:active .ing,
+	&:focus .ing {
+		color: #FFF;
+	}
+}

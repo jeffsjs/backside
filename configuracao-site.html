@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BackSide</title>
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="small-menu">
+	<div class="main-menu animated">
+		<a class="nav-top" href="index.html">
+			<div class="logo">
+				<i class="ing ing-config"></i> <img src="img/logo.png" alt="Back Office">
+			</div>
+		</a>
+		<ul class="menu list-unstyled">
+			<li><a href="home.html"><i class="ing ing-home"></i> <span>Imobiliárias</span></a></li>
+			<li>
+				<a href="javascript:;">
+					<i class="ing ing-map-maker"></i> <span>Endereços <i class="ing ing-chevron-light-down"></i></span>
+				</a>
+				<div class="sub-menu">
+					<a href="logradouros.html">Logradouros</a>
+					<a href="bairros.html">Bairros</a>
+				</div>
+			</li>
+			<li><a href="manager.html"><i class="ing ing-sitemap"></i> <span>Manager</span></a></li>
+			<li>
+				<a href="javascript:;"><i class="ing ing-gears-dual"></i> <span>Operacional <i class="ing ing-chevron-light-down"></i></span></a>
+				<div class="sub-menu">
+					<a href="contato.html">Contatos</a>
+					<a href="indicadores.html">Indicadores</a>
+					<a href="relatorios.html">Relatórios</a>
+					<a href="formularios-sites.html">Site Forms</a>
+					<a href="sugestoes.html">Sugestões</a>
+
+				</div>
+			</li>
+		</ul>		
+	</div>
+	<div class="top-fixed">		
+		<div class="container-fluid">
+			<nav class="nav-top">
+				<div class="float-left">
+					<a href="javascript:;" class="float-left navbar-toggler-icon"><i class="ing ing-bars"></i></a>
+					<h1>Imobiliárias</h1>
+				</div>
+				<div class="pull-right">
+					<nav class="nav-right">
+						<ul class="list-unstyled">
+							<li class="menu-search">
+								<div class="input-group input-group-sm">
+									<input type="text" class="form-control form-control-sm input-search" placeholder="Buscar">
+									<div class="input-group-btn">
+										<button type="button" class="btn btn-success btn-sm">
+											<i class="ing ing-search"></i>
+										</button>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-users"></i> Usuários <i class="ing ing-chevron-light-down"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="users.html"><i class="ing ing-users"></i> Usuários</a></li>
+									<li><a href="perfis.html"><i class="ing ing-columns-alt"></i> Perfis</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="ing ing-user"></i></a>
+								<ul class="dropdown-menu animated fadeIn">
+									<li><a href="user-add.html"><i class="ing ing-edit-o"></i> Jefferson Santos</a></li>
+									<li class="divider"></li>
+									<li><a href="login.html"><i class="ing ing-times"></i> Sair</a>
+</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</nav>				
+		</div>
+	</div>
+
+	<div class="main-content animated">
+		<div class="container-fluid">			
+			<div class="col-sm-12">
+				<div class="content content-title">
+					<div class="row">
+						<div class="col-sm-1 cod-id">
+							<span>#5308</span>
+						</div>
+						<div class="col-sm-11">							
+							<h2>Lorem Ipsum Dolor - LID <span>imoveisLorem.com.br</span></h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5>Configurações de Site</h5>
+							<div class="form">
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Site</label>
+									<div class="col-9"><input type="text" class="form-control form-control-sm"></div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Tag &lt;itle&gt;</label>
+									<div class="col-9"><input type="text" class="form-control form-control-sm"></div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Tag &lt;meta&gt;</label>
+									<div class="col-9"><input type="text" class="form-control form-control-sm"></div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Posição da marca d'água</label>
+									<div class="col-4">
+										<select class="form-control form-control-sm" id="site_config_tx_posicao_marca_agua" name="site_config[tx_posicao_marca_agua]">
+											<option value="Center" selected="selected">Centro</option>
+											<option value="East">Direita</option>
+											<option value="West">Esquerda </option>
+											<option value="South">Rodapé</option>
+											<option value="North">Topo</option>
+											<option value="SouthEast">Rodapé - Direita</option>
+											<option value="SouthWest">Rodapé - Esquerda</option>
+											<option value="NorthEast">Topo - Direita</option>
+											<option value="NorthWest">Topo - Esquerda</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Upload da marca d'água</label>
+									<div class="col-9">
+										<input type="file" id="file">
+									</div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Exibir no site:</label>
+									<div class="col-9">											
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input" checked="">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">CRECI</span>
+										</label>
+
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input" checked="">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Endereços</span>
+										</label>
+
+										<label class="custom-control custom-checkbox custom-square-inline">
+											<input type="checkbox" class="custom-control-input" checked="">
+											<span class="custom-control-indicator"></span>
+											<span class="custom-control-description">Telefones</span>
+										</label>
+									</div>
+								</div>
+								<div class="row">	
+									<label for="" class="col-3 col-form-label text-right">Texto institucional do site</label>
+									<div class="col-9">										
+										<div class="form-group">
+											<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+										</div>
+									</div>								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5>Configurações do Analytics</h5>
+							<div class="form">
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Analytics com a ?</label>
+									<div class="col-4">
+										<select class="form-control form-control-sm" id="fl_analytics_ivalue" name="site_config[fl_analytics_ivalue]"><option value="" selected="selected">Selecione</option>
+											<option value="1">Sim</option>
+											<option value="0">Não</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Código ga</label>
+									<div class="col-4"><input type="text" class="form-control form-control-sm"></div>
+									<div class="col-5"><small>Código que aparece no script na página do cliente. Ex: (UA-999999-99)</small></div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Id da propriedade ga</label>
+									<div class="col-4"><input type="text" class="form-control form-control-sm"></div>
+									<small class="col-5">ID do usuário Google para acessar o Google Analytics no Lorem</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5>Telefones no site</h5>
+							<div class="form">
+								<div class="row">
+									<div class="col-6">
+										<div class="list-group">
+											<a href="#" class="list-group-item active">
+												Topo
+											</a>
+											<a href="#" class="list-group-item list-group-item-action">Com (19) 9999-8888  - Lorem Ipsum Dolor - LID *</a>
+											<a href="#" class="list-group-item list-group-item-action">Com (19) 9930-42208  - Lorem Ipsum Dolor - LID</a>
+										</div>
+									</div>
+									<div class="col-6">
+										<div class="list-group">
+											<a href="#" class="list-group-item active">
+												Rodápe
+											</a>
+											<a href="#" class="list-group-item list-group-item-action">Com (19) 9999-8888  - Lorem Ipsum Dolor - LID *</a>
+											<a href="#" class="list-group-item list-group-item-action">Com (19) 9930-42208  - Lorem Ipsum Dolor - LID</a>
+										</div>
+									</div>
+									<div class="col-6">
+										<label for="">Topo</label>
+										<select class="form-control form-control-sm" id="site_config_site_phones_attributes_0_id_telefone" name="site_config[site_phones_attributes][0][id_telefone]">
+											<option value="11169" selected="selected">Com (19) 9999-8888  - Lorem Ipsum Dolor - LID *</option>
+											<option value="11541">Com (19) 9930-42208  - Lorem Ipsum Dolor - LID  </option>
+										</select>
+									</div>
+									<div class="col-6 mb10">
+										<label for="">Rodapé</label>
+										<select class="form-control form-control-sm" id="site_config_site_phones_attributes_3_id_telefone" name="site_config[site_phones_attributes][3][id_telefone]">
+											<option value="11169" selected="selected">Com (19) 9999-8888  - Lorem Ipsum Dolor - LID *</option>
+											<option value="11541">Com (19) 9930-42208  - Lorem Ipsum Dolor - LID  </option>
+										</select>
+									</div>
+									<div class="col-12 ">										
+										<div class="row">
+											<div class="col-12 mb10">										
+												<a href="#" class="btn btn-sm btn-outline-success">Novo</a>
+											</div>
+											<div class="col-4">
+												<div class="row">
+													<div class="col-8">
+														<input type="text" class="form-control form-control-sm">
+													</div>
+													<div class="col-4">
+														<input type="text" class="form-control form-control-sm">
+													</div>
+												</div>
+											</div>
+											<div class="col-3">
+												<label class="custom-control custom-checkbox custom-square-inline">
+													<input type="checkbox" class="custom-control-input" checked="">
+													<span class="custom-control-indicator"></span>
+													<span class="custom-control-description">Topo</span>
+												</label>
+
+												<label class="custom-control custom-checkbox custom-square-inline">
+													<input type="checkbox" class="custom-control-input" checked="">
+													<span class="custom-control-indicator"></span>
+													<span class="custom-control-description">Rodapé</span>
+												</label>											
+											</div>						
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<h5>CMS</h5>
+							<div class="form">
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Usa CMS</label>
+									<div class="col-4">
+										<select class="form-control form-control-sm" id="fl_analytics_ivalue" name="site_config[fl_analytics_ivalue]" disabled>
+											<option value="" selected="selected">Sim</option>
+											<option value="1">Não</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Plano do CMS</label>
+									<div class="col-4"><input type="text" class="form-control form-control-sm" value="2.0" disabled></div>
+								</div>
+								<div class="row">
+									<label for="" class="col-3 col-form-label text-right">Id da propriedade ga</label>
+									<div class="col-4">										
+										<select class="form-control form-control-sm" id="site_config_id_plano_cms" name="site_config[id_plano_cms]" disabled>
+											<option value="1" selected="selected">Free</option>
+											<option value="2">Premium</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-3"></div>
+									<div class="col-7">
+										<a href="#" class="btn btn-sm btn-secondary">Converter para Free+</a>
+										<a href="#" class="btn btn-sm btn-secondary">Habilitar Menu</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="content">
+					<div class="row">
+						<div class="col-sm-12">
+							<a href="#" class="btn btn-sm btn-outline-success">Atualizar</a>
+							<a href="#" class="btn btn-sm btn-secondary">Voltar</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<script src="js/plugins/jquery.min.js"></script>
+	<script src="js/plugins/tether.min.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

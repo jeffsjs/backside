@@ -1,0 +1,10 @@
+//  sass --watch login.scss:login.min.css --style compressed
+
+@import "plugins/stylesheet.min.css";
+@import "plugins/font-icons.min.css";
+@import "plugins/animate.min.css";
+@import "partials/colors";
+@import "partials/functions";
+@import "pages/login";
+
+

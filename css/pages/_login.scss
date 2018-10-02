@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+}
+
+.login {
+	background-color: rgba(0,0,0,0.8);
+	&:after {
+		content: "";
+		background-image: url(../img/bgLogin.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-size: cover;
+		opacity: 0.3;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	}
+	.content-login {
+		height: 324px;
+		background: transparent;
+		position: absolute;
+		top: 50%; 
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+		.logo {
+			text-align: center;
+			margin-top: -72px;
+			margin-bottom: 40px;
+		}
+	}
+}

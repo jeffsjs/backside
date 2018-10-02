@@ -1,0 +1,141 @@
+.main-menu {
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 22;
+	width: 280px;
+	height: 100%;
+	background: lighten($color-gray-3, 5%);
+	overflow: hidden;
+	.nav-top {
+		padding: 2px 15px;
+		background-color: $color-gray-3;
+		width: 280px;
+		overflow: hidden;
+		.logo {
+			display: inline-block;
+			.ing {
+				font-size: 24px;
+				float: left;
+				color: #fff;
+				line-height: 34px;
+			}
+			img {
+				margin-left: 14px;
+			}
+		}
+	}
+	.menu {
+		width: 280px;
+		li {
+			overflow: hidden;
+			.sub-menu {
+				display: block;
+				width: 100%;
+				position: relative;
+				background: transparent;
+				border: none;
+				padding: 0;
+				margin: 0;
+				a {
+					font-size: 16px;
+					padding: 5px 0 5px 60px;
+				}
+			}
+			a {
+				font-size: 22px;
+				padding: 4px 10px;
+				display: block;
+				color: #fff;
+				.ing {
+					font-size: 18px;
+					vertical-align: middle;
+					margin: 0 11px;
+					&.ing-chevron-light-down{
+						font-size: 22px;
+						vertical-align: sub;
+					}
+				}
+				&:hover {
+					background: lighten($color-gray-3, 10%);
+				}
+			}
+		}
+	}
+}
+
+
+.small-menu {
+	.main-menu {
+		width: 60px;
+		text-align: center;
+		overflow: visible;
+		.nav-top {
+			width: auto;
+		}
+		.logo {
+			img {
+				display: none;
+			}
+		}
+		.menu {
+			width: auto;
+			li {
+				> a {
+					min-height: 44px;
+					.ing {
+						font-size: 24px;
+						margin: 0;
+					}
+					span {
+						display: none;
+					}
+				}
+				.sub-menu {
+					display: none
+				}
+				&:hover {
+					width: 280px;
+					text-align: left;
+					height: 44px;
+					overflow: visible;
+					> a {
+						font-size: 0;
+						background: lighten($color-gray-3, 10%);
+						span {
+							display: inline-block;
+							margin-left: 10px;
+							font-size: 22px;
+							vertical-align: middle;
+						}
+						> .ing {
+							font-size: 30px;
+						}
+						.ing {
+							margin-left: 5px;
+						}
+					}
+					.sub-menu {
+						display: block;
+						position: relative;
+						top: 0;
+						left: 60px;
+						width: 220px;
+						background: lighten($color-gray-3, 30%);
+						a {
+							padding: 5px 0 5px 20px;
+						}
+					}
+
+				}
+			}
+		}
+	}
+	.top-fixed {
+		left: 60px;
+	}
+	.main-content {
+		padding-left: 60px;
+	}
+}

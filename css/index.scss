@@ -1,0 +1,9 @@
+//  sass --watch index.scss:style.min.css --style compressed
+
+@import "plugins/stylesheet.min.css";
+@import "plugins/font-icons.min.css";
+@import "plugins/animate.min.css";
+@import "partials/colors";
+@import "partials/menu";
+@import "partials/main";
+@import "partials/functions";
